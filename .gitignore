@@ -1,0 +1,34 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Model files
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Ignore dataset if large
+*.csv
+
+# Anaconda
+*.conda
+*.log
+
+# Ignore notebook outputs if needed
+*.out
